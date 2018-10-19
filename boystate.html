@@ -2,9 +2,174 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/experiment.css">
+    <link rel="stylesheet" href="swipe.js">
     <title></title>
-  </head>
-  <body>
 
-  </body>
+    <div id="touchSideSwipe" class="touch-side-swipe" align="center">
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Robotics.html">Robotics</a></li>
+            <li><a href="boystate.html">Boys State</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bestWork.html">Best Work</a></li>
+        </ul>
+    </div>
+
+    <style>
+    * {box-sizing: border-box}
+
+     .mySlides {display: none}/*important */
+    img {vertical-align: middle;}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    /* .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    } */
+
+    /* Position the "next button" to the right */
+    /* .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    } */
+
+    /* On hover, add a black background color with a little bit see-through */
+    /* .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    } */
+
+    /* Caption text */
+    /* .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    } */
+
+    /* Number text (1/3 etc) */
+    /* .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    } */
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/BoysState.jfif" style="width:25%">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/Band.jpg" style="width:50%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/StatePatrol.jpg" style="width:50%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+<h1>Hawkeye boys state</h1>
+<p>The American Legion of Iowa Boys State is a weeklong "Hands-On" experience in the operation of the democratic form of government, the organization of political parties, and the relationship of one to the other in shaping Iowa government. Through the Boys State objective of "learning by doing", young men will learn more about city, county and state government in one week than they would in an entire semester of high school.
+Boys State is an exercise in leading as well as following others. Elections are an opportunity to show the ability to perform under pressure and to show character in the face of victories and/or defeats. Boys State will test skill in solving problems and working effectively within a team.
+Boys State is an opportunity to gain pride and respect for our form of government and the price paid by people to preserve democracy. The week contains ceremonies and assemblies as well as marching and pageantry. Guest speakers, such Past National Commander of The American Legion David Rehbein, and former Director of the Iowa High School Athletic Association Bernie Saggau, along with Iowa Government Leaders attend each year to offer their vision and advice. Daily flag raising and lowering ceremonies are conducted at Boys State.
+Boys State is a chance to meet new people. Boys State offers an opportunity to meet people who represent Iowa's diversity in heritage and culture. One of the finest objectives afforded to young men by Boys State is the friendships they will form with other Boys State citizens, many of whom will become lifelong friends. </p>
+
+
+
+<h2>Boys State Video</h2>
+<div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/_RYNyWAGUiM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<footer>
+  <a href="https://twitter.com/west_inspire?lang=en"><i class="fa fa-twitter"style="font-size:30px; color: #55acee"></i></a>
+  <a href="https://www.facebook.com/DisruptiveInnovation6317/"><i  class="fa fa-facebook"style="font-size:30px; color: #3b5998"></i></a>
+  <a href="https://www.instagram.com/"><i class="fa fa-instagram"style="font-size:30px; color: #3f729b"></i></footer></a></body>
+  </footer>
+
+    </body>
+
 </html>
