@@ -2,6 +2,12 @@
 h1{
   text-align: center;
 }
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 15px;
+}
 /* center nav bar */
 ul {
     width: 65%;
