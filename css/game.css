@@ -1,0 +1,67 @@
+h2{
+ text-align: center;
+}
+    /* background-image:"images/WallPaper.jpg"; */
+    body {
+      margin: 0px auto auto auto;
+    	width: 100%;
+    	position: relative;
+    	background-color: white;
+    	border-left: 5px solid Black;
+    	border-right: 5px solid Black;
+      max-width: 960px;
+      min-width: 640px;
+      width: 95%;
+      background-color: ;
+}
+html {
+   height: 100%;
+}
+
+.bg {
+   /* The image used */
+   background-image: url("images/WallPaper.jpg");
+
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+li a:hover {
+    background-color: pink;
+}
+
+footer{
+  text-align: center;
+}
+
+.content{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+    color: #444;
+    background: #eee;
+    line-height: 40px;
+}
+@media(max-width:1023px){
+    .touch-side-swipe{
+        background: hsl(2, 57%, 40%);
+    }
+}
+@media(min-width:1024px){
+    .touch-side-swipe li {
+        display: block;
+        float: left;
+        padding: 4px;
+        margin-right: 5px;
+        border-radius: 2px;
+        border: 1px solid #fff;
+    }
+}
+.touch-side-swipe ul{display: block;overflow-y:overlay;margin: 0; padding: 0;line-height: 30px}
+.touch-side-swipe a {color:#fff;}
+*{box-sizing: border-box}
