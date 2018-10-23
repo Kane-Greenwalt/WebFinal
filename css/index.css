@@ -1,4 +1,6 @@
-
+audio{
+   visibility: hidden;
+}
 h1{
   text-align: center;
 }
